@@ -33,9 +33,10 @@ header h2 {
 .project-grid
 {
     display: grid;
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     grid-gap: 0px;
+    background-color: #F7B733;
 }
 
 .project-grid > div {
@@ -44,7 +45,7 @@ header h2 {
     color: #000000;
     padding: 10px;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 .project-grid > img
 {
@@ -54,3 +55,16 @@ header h2 {
     text-align: center;
     font-size: 1.5em;
 }
+.button {
+    border-radius: 12px;
+    background-color: #FC4A1A;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
