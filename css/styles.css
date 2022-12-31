@@ -1,3 +1,56 @@
 img {
-    width: 25%;
+    width: 100%;
+}
+header {
+    background-color: #4ABDAC;
+    color: #fcfcfc;
+    padding: 10px;
+    text-align: center;
+    
+}
+header p {
+    font-size: 1.25em;
+}
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+section h2 {
+    text-align: center;
+    font-size: 2.5em;
+    background-color: #F7B733;
+    padding: 10px;
+    margin: 0;
+}
+section p {
+    font-size: 1.25em;
+    padding: 0% 5%;
+}
+header h2 {
+    font-size: 2em;
+    margin: 0; 
+}
+.project-grid
+{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    grid-gap: 0px;
+}
+
+.project-grid > div {
+    border: 10px solid #F7B733;
+    background-color: #DFDCE3;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.project-grid > img
+{
+    border: 10px solid #F7B733;
+    background-color: #DFDCE3;
+    color: #000000;
+    text-align: center;
+    font-size: 1.5em;
 }

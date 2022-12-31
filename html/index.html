@@ -11,8 +11,7 @@
       <!-- ***********************  ABOUT / PROFILE  *********************** -->
       <header>
         <h1>Jonathan Levy</h1>
-        <h2>Computer Science University of Florida</h2>
-
+        <h2>University of Florida</h2>
         <p>
           Hi! My name is Jonathan and I am a Junior Computer Science major at
           the University of Florida. At heart, I am a math enthusiast and I love
@@ -23,38 +22,44 @@
       <!-- ********************  PROJECTS / PORTFOLIO  ********************* -->
       <section>
         <h2>Featured Projects</h2>
-        <section>
-          <h3>Twitch Plays Pokemon Data Analyzer</h3>
+        <section  class = "project-grid">
+          <div class project-item>
+            <h3>Twitch Plays Pokemon Data Analyzer</h3>
+            <p>
+              Created a bot to analyze data for the Twitch Plays Pokemon stream in Python. The analyzer reads in the chat data from the stream 
+              and analyzes the data to determine which team, red or blue, is more likely to win the match soley based on other player bets. 
+              The bot currently uses the amount of money bet on each team and the nubmer of players who bet on each team as metrics
+              to determine the winner. Using these predictions, the bot was able to double its balance within a few hours of operating.
+            </p>
+            <a href="https://www.twitch.tv/twitchplayspokemon" target="_blank">Stream</a>
+          </div>
           <img
-            src="../images/twitch-plays-pokemon-image.PNG"
-            alt="Image of Twitch Plays Pokemon Stream"
-          />
-          <p>
-            Created a bot to analyze data for the Twitch Plays Pokemon stream in Python. The analyzer reads in the chat data from the stream 
-            and analyzes the data to determine which team, red or blue, is more likely to win the match soley based on other player bets. 
-            The bot currently uses the amount of money bet on each team and the nubmer of players who bet on each team as metrics
-            to determine the winner. Using these predictions, the bot was able to double its balance within a few hours of operating.
-          </p>
-          <a href="https://www.twitch.tv/twitchplayspokemon" target="_blank">Stream</a>
+          src="../images/twitch-plays-pokemon-image.PNG"
+          alt="Image of Twitch Plays Pokemon Stream"
+        />
+        <div class project-item>
           <h3>Minesweeper</h3>
-          <img
-            src="../images/minesweeper-image.png"
-            alt="Image of Recreated Minesweeper"
-          />
           <p>
             Recreated the classic game of Minesweeper in C++. Functionality included a flagging system, random mine generation, recursive
             tile clearing, and win/lose conditions. The visuals were created using the SFML library.
           </p>
-          <h3>You Owe Me</h3>
+        </div>
           <img
-            src="../images/you-owe-me-image.PNG"
-            alt="Image of You Owe Me Application"
-          />
+          src="../images/minesweeper-image.png"
+          alt="Image of Recreated Minesweeper"
+        />
+        <div class project-item>
+          <h3>You Owe Me</h3>
           <p>
              Served as the interface developer for a C++ application that allows users to determine locally optimal ways to pay debts to a 
-             group of individuals. The interface was created using the SFML library and the application was created using C++. A video of the
-             application can be found <a href="https://www.youtube.com/watch?v=XexfyNL5V34" target="_blank">here</a>.
+             group of individuals. The interface was created using the SFML library and the application was created using C++.
           </p>
+          <a href="https://www.youtube.com/watch?v=XexfyNL5V34" target="_blank">Demo</a>
+        </div>
+          <img
+          src="../images/you-owe-me-image.PNG"
+          alt="Image of You Owe Me Application"
+        />
           
 
         </section>
