@@ -4,11 +4,13 @@ body {
 }
 
 h1 {
+    font-family: 'Nevis', sans-serif;
+    font-style: italic;
     font-size: 4.5em;
     margin: 0;
     padding: 20px;
     text-align: center;
-    background-color: #F7B733;
+    background: linear-gradient(0deg, rgba(247,183,48,100) 0%, rgba(74,189,172,100) 100%);
 }
 h2 {
     text-align: center;
@@ -22,13 +24,14 @@ header {
     background-color: #4ABDAC;
     color: #fcfcfc;
     padding: 20px;
+   
 }
 nav {
     justify-content: space-evenly;
     display: flex;
     font-size: 2.5em;
 }
-nav a {
+nav a, li a {
     text-decoration: none;
 }
 header p {
@@ -60,9 +63,10 @@ section p {
 }
 
 .project-item{
-    width: 60%;
-    margin-left : 25%;
+    width: 70%;
+    margin-left : 19%;
     margin-right: 10%;
+
 }
 
 img {
@@ -81,10 +85,7 @@ img {
 
 
 }
-.sidebar {
-    grid-row: 1 / 99; height: auto;
-    grid-column: 3;
-}
+
 .button {
     border-radius: 12px;
     background-color: #FC4A1A;
@@ -102,3 +103,20 @@ img {
   .button:hover {
     background-color: #fc4b1ab6;
   }
+
+  footer h2{
+    background: linear-gradient(0deg, rgba(252, 74, 26, .9) 0%, rgba(247,183,48,100) 100%)
+  }
+
+  ul {
+    display : flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: hidden;
+    justify-content: space-evenly;
+    background-color: #fc4a1ae6;
+    justify-content: space-evenly;
+    font-size: 2em;
+}
+
