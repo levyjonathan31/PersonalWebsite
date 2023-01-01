@@ -68,12 +68,15 @@ nav a, li a {
 }
 
 img {
-    width: 25%;
-    height: 25%;
     border-radius: 100px;
-    display:  block;
     margin: auto;
+    display: block;
+    width: 50%;
+    height: auto;
+    
 }
+
+
 
 .work-grid {
     background-color: #DFDCE3;
@@ -157,5 +160,13 @@ footer h3{
     padding: 40px;
     margin: auto;
 }
+
+    .about-me img {
+        width: 25%;
+        height: 25%;
+        border-radius: 100px;
+        display:  block;
+        margin: auto;
+    }
 
 }
