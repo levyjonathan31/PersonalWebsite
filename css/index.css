@@ -52,11 +52,9 @@ nav a, li a {
     background-color: #F7B733;
 
 }
-.about-me {
-    display : flex;
-    justify-content: space-evenly;
-    align-items: center;
 
+.about-me{
+    margin : 0 0;
 }
 .about-me section {
     width: 60%;
@@ -78,13 +76,6 @@ img {
 
 .work-grid {
     background-color: #DFDCE3;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    justify-content: space-evenly;
-    align-items: center;
-
-
 }
 .work-grid > .work-item, .work-grid > .work-title {
     color: #000000;
@@ -100,11 +91,6 @@ img {
 
 .education-grid{
     background-color: #DFDCE3;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto;
-    justify-content: space-evenly;
-    align-items: center;
 }
 .education-grid > .education-item, .education-grid > .education-title {
     color: #000000;
@@ -134,3 +120,27 @@ footer h3{
     font-size: 2em;
 }
 
+@media screen and (min-width: 1350px) {
+    .education-grid{
+        background-color: #DFDCE3;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .work-grid {
+        background-color: #DFDCE3;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: auto;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .about-me {
+        display : flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
