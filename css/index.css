@@ -28,7 +28,7 @@ h3{
 }
 footer h3{
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.25em;
     margin: 0;
     padding: 10px
 }
@@ -47,6 +47,7 @@ nav {
 }
 nav a, li a {
     text-decoration: none;
+    font-size: .75em;
 }
 .about-info {
     background-color: #F7B733;
@@ -169,4 +170,8 @@ footer h3{
         margin: auto;
     }
 
+    nav a, li a {
+        text-decoration: none;
+        font-size: 1em;
+    }
 }
