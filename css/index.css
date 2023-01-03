@@ -47,7 +47,7 @@ nav {
 }
 nav a{
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 .about-info {
     background-color: #F7B733;
@@ -131,7 +131,7 @@ li a {
     display: block;
     text-align: center;
     text-decoration: none;
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
 
 @media screen and (min-width: 1350px) {
