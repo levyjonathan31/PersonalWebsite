@@ -39,6 +39,7 @@ nav {
 }
 nav a, li a {
     text-decoration: none;
+    font-size: .85em;
 }
 header p {
     font-size: 1.5em;
@@ -140,6 +141,11 @@ img {
         object-fit: fill;
         margin-right: 25%;
         margin-left: 10%;
+    }
+    
+    nav a, li a {
+        text-decoration: none;
+        font-size: 1em;
     }
     
 }
