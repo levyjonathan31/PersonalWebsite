@@ -45,9 +45,9 @@ nav {
     display: flex;
     font-size: 2.5em;
 }
-nav a, li a {
+nav a{
     text-decoration: none;
-    font-size: .85em;
+    font-size: 0.9em;
 }
 .about-info {
     background-color: #F7B733;
@@ -109,12 +109,15 @@ img {
     margin: 0px;
 }
 
-
+footer 
+{
+    font-size: 1.5em;
+}
 footer h3{
     background: linear-gradient(0deg, rgba(252, 74, 26, .9) 0%, rgba(247,183,48,100) 100%)
   }
 
-  ul {
+ul {
     display : flex;
     list-style-type: none;
     margin: 0;
@@ -122,8 +125,13 @@ footer h3{
     overflow: hidden;
     justify-content: space-evenly;
     background-color: #fc4a1ae6;
-    justify-content: space-evenly;
-    font-size: 2em;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font : 0.9em;
 }
 
 @media screen and (min-width: 1350px) {
@@ -172,6 +180,6 @@ footer h3{
 
     nav a, li a {
         text-decoration: none;
-        font-size: 1em;
+        font-size: 1.5em;
     }
 }
